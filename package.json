@@ -1,15 +1,27 @@
-﻿{
-    "name": "super-chat",
-    "version": "0.1.0",
-    "dependencies": {
-        "express": "~3.3.4",
-        "socket.io": "~1.2.1",
-        "ent": "~0.1.0"
-    },
-    "author": "Mateo21 <mateo21@email.com>",
-    "description": "Un super Chat temps réel avec socket.io"
-	"bugs": {
-		"url": ""
-	},
-	"homepage": "http://tutosfaciles48.free.fr/node.php#super-chat"
+{
+     "name": "mukhin_chat",
+     "description": "example chat application with socket.io",
+     "version": "0.0.3",
+     "dependencies": {
+        "express": "4.13.24",
+        "socket.io": "1.4.5"
+     },
+     "bugs": {
+       "url": "https://github.com/tutosfaciles48/nodejs-app/issues",
+       "email": "dev@tutosfaciles48.f-h.me"
+     },
+     "repository": {
+       "type": "git",
+       "url": "https://github.com/tutosfaciles48/nodejs-app.git"
+     },
+     "scripts": {
+       "start": "node app.js"
+     },
+     "author": {
+       "url": "http://psitsmike.com/2011/10/node-js-and-socket-io-multiroom-chat-tutorial/"
+     },
+     "contributors": {
+       "name": "tutosfaciles48",
+       "email": "dev@tutosfaciles48.f-h.me"
+     }
 }
