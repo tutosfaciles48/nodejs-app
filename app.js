@@ -8,7 +8,7 @@ server.listen(8080);
 
 // routing
 app.get('/', function (req, res) {
-  res.sendfile(__dirname + '/index.html');
+  res.sendFile(__dirname + '/index.html');
 });
 
 // usernames which are currently connected to the chat

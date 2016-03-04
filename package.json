@@ -1,9 +1,9 @@
 {
      "name": "mukhin_chat",
      "description": "example chat application with socket.io",
-     "version": "0.0.3",
+     "version": "0.0.4",
      "dependencies": {
-        "express": "4.13.24",
+        "express": "4.13.4",
         "socket.io": "1.4.5"
      },
      "bugs": {
