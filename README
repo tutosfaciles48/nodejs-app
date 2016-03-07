@@ -1,4 +1,5 @@
-Initially from http://psitsmike.com/2011/10/node-js-and-socket-io-multiroom-chat-tutorial/ [chache: http://archive.wikiwix.com/cache/?url=http://psitsmike.com/2011/10/node-js-and-socket-io-multiroom-chat-tutorial/]
+Initially from http://psitsmike.com/2011/10/node-js-and-socket-io-multiroom-chat-tutorial/
+[cache: http://archive.wikiwix.com/cache/?url=http://psitsmike.com/2011/10/node-js-and-socket-io-multiroom-chat-tutorial/]
 
 1. Install NodeJS and npm
 2. Execute 'npm install -d' to create the node_modules folder from package.json
