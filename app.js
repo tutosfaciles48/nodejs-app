@@ -1,8 +1,8 @@
-var express = require('express')
-  , app = express()
-  , http = require('http')
-  , server = http.createServer(app)
-  , io = require('socket.io').listen(server);
+let express = require('express'),
+    app = express(),
+    http = require('http'),
+    server = http.createServer(app),
+    io = require('socket.io').listen(server);
 
 server.listen(8080);
 
@@ -12,14 +12,15 @@ app.get('/', function (req, res) {
 });
 
 // usernames which are currently connected to the chat
-var usernames = {};
+let usernames = {};
 
 // rooms which are currently available in chat
-var rooms = [];
+let rooms = [];
 
-function AddRoom(name) {
+let AddRoom = (name) => {
 	rooms[rooms.length] = name;
 }
+
 for(i=1,j=167;i<j;i++) {
 	AddRoom('room'+i);
 }
